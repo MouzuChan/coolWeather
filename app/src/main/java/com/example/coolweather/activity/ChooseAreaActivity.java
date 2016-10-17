@@ -151,8 +151,9 @@ public class ChooseAreaActivity extends Activity {
             dataList.clear();
             for (Country country : countryList){
                 dataList.add(country.getCountryName());
-                currentLevel = LEVEL_COUNTRY;
             }
+            adapter.notifyDataSetChanged();
+            currentLevel = LEVEL_COUNTRY;
         }else {
             queryFromServer(selectedCity.getCityCode(),"country");
         }

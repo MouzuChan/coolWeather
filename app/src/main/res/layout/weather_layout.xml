@@ -23,8 +23,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_toLeftOf="@id/refresh_weather"
-            android:layout_toRightOf="@id/switch_city"
             android:textColor="#fff"
             android:textSize="24sp" />
 
